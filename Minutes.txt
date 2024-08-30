@@ -16,7 +16,7 @@ Repository
 
 - For every change
 - Add / Staging
-- Commit
+- Commit (Local - No internet connection required)
 
 Day 2
 =======================================
