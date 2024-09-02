@@ -56,7 +56,12 @@ Day 4
 -- WebAssembly (wasm)
 
 
-
+Day 5
+===================================================
+Database Systems:
+- Relational: MySql, Oracle, Sql Server, SqLite, Db2, Postgres etc.
+--- Tables (Colmuns), Keys, Views, Stored Procedures, Funtions, Triggers etc.
+- NoSql (Document dbs): MongoDb, AWS DyanamoDb etc.
 
 
 
