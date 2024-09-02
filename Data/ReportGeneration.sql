@@ -2,13 +2,13 @@
 -- Class Work
 -- 1. Execute provided insert query to your sqlite db
 -- 2. Add at least 20 books to book table using author and publishers references     
--- 3. Now prepare following reports:
+-- 3. Now prepare following reports, commit to your repo in like this file
 
 -- 3.0 List all Books with it's Title, Price, Author Name, Publisher Name and Published Date
 -- Solution Example
-    SELECT b.Title, b.Price, a.Name Author, p.Name Publisher, b.PublishDate from Book b
+    SELECT b.Title, b.Price, a.Name Author, p.Name Publisher, b.PublishedDate from Book b
     JOIN Author a on a.ID = b.AuthorId
-    JOIN Publisher p on p.ID = b.PublisherId
+    JOIN Publication p on p.ID = b.PublicationId
 
 -- 3.1 Get all books which are published in last 30 years
 -- YOUR CODE
